@@ -1,4 +1,31 @@
-/* ------------------------------header */
+
+body{
+  color: #434455;
+  font-family: "Roboto", sans-serif
+  
+  
+
+}
+
+
+
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/* ----------------------------------------------------------------------------------header */
+
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -18,23 +45,38 @@
   line-height: 24px;
 }
 
-.header-list {
-  font-family: "Roboto", sans-serif;
+.header-list .header-list-text{
+  color: #2E2F42;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
 }
 
-.header-adress-list {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+.header-list .header-list-text:is(:hover,:focus){
+  color: #404BBF;
+
 }
 
-/* -----------------------------------MAIN */
+.header-adress .header-adress-list .adress-info{
+  color: #434455;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.header-adress .header-adress-list .adress-info:is(:focus,:hover
+){
+  color: #404BBF;
+
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------MAIN */
 .section-one {
   background-color: #2e2f42;
 }
@@ -45,24 +87,30 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  font-family: "Roboto", sans-serif;
+  
 }
 
-.section-one-button {
-  background-color: #4d5ae5;
-}
-
-.section-one-button-text {
-  font-family: "Roboto", sans-serif;
+.section-one .section-one-button {
+  background-color: #4D5AE5;
+  color: #FFFFFF;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+cursor: pointer;
 
-  color: #ffffff;
+
 }
+
+.section-one .section-one-button:is(:focus,:hover){
+  background-color: #404BBF;
+  color: #FFFFFF;
+}
+
+
 
 .main-description-title {
-  font-family: "Roboto", sans-serif;
+  
   color: #2e2f42;
   font-style: normal;
   font-weight: 500;
@@ -71,7 +119,7 @@
 }
 
 .main-description-text {
-  font-family: "Roboto", sans-serif;
+  
   color: #434455;
   font-style: normal;
   font-weight: 400;
@@ -79,8 +127,13 @@
   line-height: 24px;
 }
 
+.our-team-list{
+  background-color: #FFFFFF;
+  
+}
+
 .team-title {
-  font-family: "Roboto", sans-serif;
+  
   color: #2e2f42;
   font-style: normal;
   font-weight: 700;
@@ -89,12 +142,15 @@
   
 }
 
+
+
+/* ----------------------------------------------------------------------------------FOOTER */
 .footer-box {
   background-color: #2e2f42;
 }
 
 .footer-box-text {
-  font-family: "Roboto", sans-serif;
+  
   color: #e7e9fc;
   font-style: normal;
   font-weight: 400;
@@ -116,25 +172,21 @@ line-height: 24px;
     background-color: #F4F4FD;
 }
 
-.button-link :is(:hover, :focus) {
-    color: #F4F4FD;
-    background-color: #404BBF;
-    
-    
 
-}
-.button-text {
-    color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
+
+/* --------------------------------------------------portfolio */
+.button-list .btn-text{
+  color: #4D5AE5;
+  font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 cursor: pointer;
 }
 
-.button-list-back{
-    background: #F4F4FD;
+.button-list .btn-text:is(:hover,:focus) {
+  background-color: #404BBF;
+  color: #FFFFFF;
 }
 
 
@@ -149,12 +201,6 @@ cursor: pointer;
 
 
 
-
-
-.our-team-list{
-    background-color: #FFFFFF;
-    
-}
 
 
 

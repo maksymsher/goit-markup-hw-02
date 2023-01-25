@@ -30,7 +30,7 @@ body{
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-  font-style: normal;
+  
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -39,7 +39,7 @@ body{
 .header-second-logo {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
-  font-style: normal;
+  
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -47,7 +47,7 @@ body{
 
 .header-list .header-list-text{
   color: #2E2F42;
-  font-style: normal;
+  
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
@@ -135,7 +135,7 @@ cursor: pointer;
 .team-title {
   
   color: #2e2f42;
-  font-style: normal;
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -152,7 +152,7 @@ cursor: pointer;
 .footer-box-text {
   
   color: #e7e9fc;
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -162,7 +162,6 @@ cursor: pointer;
     
 font-family: "Raleway", sans-serif;
 color: #F4F4FD;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 24px;
@@ -177,7 +176,7 @@ line-height: 24px;
 /* --------------------------------------------------portfolio */
 .button-list .btn-text{
   color: #4D5AE5;
-  font-style: normal;
+  
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;

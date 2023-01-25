@@ -1,36 +1,28 @@
-
-body{
+body {
   color: #434455;
-  font-family: "Roboto", sans-serif
-  
-  
-
+  font-family: "Roboto", sans-serif;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-
-
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* ----------------------------------------------------------------------------------header */
-
 
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-  
+
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -39,42 +31,35 @@ body{
 .header-second-logo {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
-  
+
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
 }
 
-.header-list .header-list-text{
-  color: #2E2F42;
-  
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
+.header-list .header-list-text {
+  color: #2e2f42;
 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.header-list .header-list-text:is(:hover,:focus){
-  color: #404BBF;
-
+.header-list .header-list-text:is(:hover, :focus) {
+  color: #404bbf;
 }
 
-.header-adress .header-adress-list .adress-info{
+.header-adress .header-adress-list .adress-info {
   color: #434455;
   font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.header-adress .header-adress-list .adress-info:is(:focus,:hover
-){
-  color: #404BBF;
-
+.header-adress .header-adress-list .adress-info:is(:focus, :hover) {
+  color: #404bbf;
 }
-
-
-
 
 /* ------------------------------------------------------------------------------------MAIN */
 .section-one {
@@ -83,66 +68,54 @@ line-height: 24px;
 
 .section-one-title {
   color: #ffffff;
-  font-style: normal;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  
 }
 
 .section-one .section-one-button {
-  background-color: #4D5AE5;
-  color: #FFFFFF;
-  font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
 
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
 }
 
-.section-one .section-one-button:is(:focus,:hover){
-  background-color: #404BBF;
-  color: #FFFFFF;
+.section-one .section-one-button:is(:focus, :hover) {
+  background-color: #404bbf;
+  color: #ffffff;
 }
-
-
 
 .main-description-title {
-  
   color: #2e2f42;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
 
 .main-description-text {
-  
   color: #434455;
-  font-style: normal;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 
-.our-team-list{
-  background-color: #FFFFFF;
-  
+.our-team-list {
+  background-color: #ffffff;
 }
 
 .team-title {
-  
   color: #2e2f42;
-  
+
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  
 }
-
-
 
 /* ----------------------------------------------------------------------------------FOOTER */
 .footer-box {
@@ -150,61 +123,37 @@ cursor: pointer;
 }
 
 .footer-box-text {
-  
   color: #e7e9fc;
-  
+
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 
-.studio-title-footer{
-    
-font-family: "Raleway", sans-serif;
-color: #F4F4FD;
-font-weight: 800;
-font-size: 18px;
-line-height: 24px;
+.studio-title-footer {
+  font-family: "Raleway", sans-serif;
+  color: #f4f4fd;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.our-team-box{
-    background-color: #F4F4FD;
+.our-team-box {
+  background-color: #f4f4fd;
 }
-
-
 
 /* --------------------------------------------------portfolio */
-.button-list .btn-text{
-  color: #4D5AE5;
-  
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-background-color: #F4F4FD;
-cursor: pointer;
+.button-list .btn-text {
+  color: #4d5ae5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
 
-.button-list .btn-text:is(:hover,:focus) {
-  background-color: #404BBF;
-  color: #FFFFFF;
+.button-list .btn-text:is(:hover, :focus) {
+  background-color: #404bbf;
+  color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

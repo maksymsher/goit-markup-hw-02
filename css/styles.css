@@ -1,3 +1,5 @@
+/* ------------------------------header */
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -32,6 +34,7 @@
   line-height: 24px;
 }
 
+/* -----------------------------------MAIN */
 .section-one {
   background-color: #2e2f42;
 }
@@ -113,6 +116,28 @@ line-height: 24px;
     background-color: #F4F4FD;
 }
 
+.button-link :is(:hover, :focus) {
+    color: #F4F4FD;
+    background-color: #404BBF;
+    
+    
+
+}
+.button-text {
+    color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+cursor: pointer;
+}
+
+.button-list-back{
+    background: #F4F4FD;
+}
+
+
 
 
 
@@ -128,6 +153,7 @@ line-height: 24px;
 
 .our-team-list{
     background-color: #FFFFFF;
+    
 }
 
 

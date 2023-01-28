@@ -17,12 +17,25 @@
 }
 
 body {
-  color: #434455;
+  color: var(--text);
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--background);
   letter-spacing: 0.02em;
   font-size: 16px;
+  line-height: 1.5;
+  list-style: none;
+  font-style: none;
+  list-style-type: none;
 }
+
+nav ul li {
+  list-style: none;
+}
+ul li{
+  list-style: none;
+}
+
+
 
 .visually-hidden {
   position: absolute;
@@ -44,7 +57,7 @@ body {
 font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.03em;
-
+text-transform: uppercase;
 text-decoration: none;
 color: var(--dark);
 }
@@ -111,7 +124,7 @@ text-decoration: none;
 .section-one .section-one-button {
  
    
-
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -122,6 +135,7 @@ text-decoration: none;
 
 .section-one .section-one-button:is(:focus, :hover) {
   background-color: var(--pressed-state);
+  font-family: "Roboto", sans-serif;
   
   
 }
@@ -157,7 +171,7 @@ color: var(--dark);
 
 
 .our-team-box .our-team-title{
-  font-style: normal;
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -210,17 +224,13 @@ color: var(--our-team-back);
 .button-list .btn-text {
   
   font-family: "Roboto", sans-serif;
-  
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
 background-color: var(--btn-portfolio-back-primary);
 color: var(--primary-brand);
-
-
-  
-  
   
   
 }
@@ -232,6 +242,10 @@ color: var(--primary-brand);
   
 }
 
-
+.main-description .main-description-cards{
+  text-decoration: none;
+ 
+  
+}
 
 
